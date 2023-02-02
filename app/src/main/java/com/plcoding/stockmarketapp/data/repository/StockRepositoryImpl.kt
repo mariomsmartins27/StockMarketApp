@@ -21,7 +21,7 @@ class StockRepositoryImpl @Inject constructor(
     private val api: StockAPI,
     private val db: StockDatabase,
     private val companyListingsParser: CSVParser<CompanyListing>
-):StockRepository {
+): StockRepository {
 
     private val dao = db.dao
 

@@ -2,6 +2,7 @@ package com.plcoding.stockmarketapp.di
 
 import com.plcoding.stockmarketapp.data.cv.CSVParser
 import com.plcoding.stockmarketapp.data.cv.CompanyListingsParser
+import com.plcoding.stockmarketapp.data.repository.StockRepositoryImpl
 import com.plcoding.stockmarketapp.domain.model.CompanyListing
 import com.plcoding.stockmarketapp.domain.repository.StockRepository
 import dagger.Binds
@@ -23,6 +24,6 @@ abstract class RepositoryModule {
     @Binds
     @Singleton
     abstract fun bindStockRepository(
-        stockRepository: StockRepository
+        stockRepository: StockRepositoryImpl
     ): StockRepository
 }
