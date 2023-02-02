@@ -68,5 +68,4 @@ class StockRepositoryImpl @Inject constructor(
             }
         }
     }
-
 }
