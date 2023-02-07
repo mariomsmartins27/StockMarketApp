@@ -2,7 +2,7 @@ package com.plcoding.stockmarketapp.di
 
 import android.app.Application
 import androidx.room.Room
-import com.plcoding.stockmarketapp.data.StockAPI
+import com.plcoding.stockmarketapp.data.remote.StockAPI
 import com.plcoding.stockmarketapp.data.local.StockDatabase
 import dagger.Module
 import dagger.Provides

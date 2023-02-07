@@ -1,4 +1,4 @@
-package com.plcoding.stockmarketapp.data.cv
+package com.plcoding.stockmarketapp.data.csv
 
 import java.io.InputStream
 

@@ -1,10 +1,9 @@
-package com.plcoding.stockmarketapp.data.cv
+package com.plcoding.stockmarketapp.data.csv
 
 import com.opencsv.CSVReader
 import com.plcoding.stockmarketapp.domain.model.CompanyListing
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
-import okhttp3.Dispatcher
 import java.io.InputStream
 import java.io.InputStreamReader
 import javax.inject.Inject
